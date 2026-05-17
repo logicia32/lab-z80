@@ -1,0 +1,27 @@
+# --- ベンダリングした SDCC ツールチェーン（再配布しない） ---
+.sdcc/
+.sdcc-env/
+sdcc.tar.bz2
+*.tar.bz2
+*.tar.gz
+
+# --- ビルド生成物（再生成可能） ---
+*.ihx
+*.bin
+*.rel
+*.lst
+*.sym
+*.map
+*.noi
+*.lk
+*.asm
+outputs/
+
+# --- Python スクラッチ（z80emu.py 等） ---
+__pycache__/
+*.pyc
+
+# --- 記事1（Zenn）に未掲載のスクラッチ。article2 で扱うか判断するまで非公開 ---
+examples/fact.c
+examples/sum.s
+examples/z80emu.py
