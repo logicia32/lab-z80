@@ -2,7 +2,7 @@
 
 レトロな 8 ビット CPU **Z80（通称ゼッパチ）** を、いまの C ツールチェーン
 （[SDCC](https://sdcc.sourceforge.net/) + 同梱の Z80 シミュレータ
-`ucsim_z80`）で動かす実験ノートです。リセットベクタから C の `printf` まで、
+`ucsim_z80`）で動かす実験ノートです。電源オンの 0x0000 から C の `printf` まで、
 端から端まで自分の目で追えることを目標にしています。
 
 解説記事（連載）は Zenn に書いています → <https://zenn.dev/logicia32>
